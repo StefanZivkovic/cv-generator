@@ -1,0 +1,146 @@
+<!doctype html>
+
+<html lang="en">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    @page {
+      size: A4;
+      margin: 1.5cm 2cm;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      margin: 0;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: #222;
+      font-size: 14px;
+    }
+
+    h2 {
+      letter-spacing: 0.04em;
+      color: #333;
+      margin: 12px 0 4px;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      letter-spacing: 0.03em;
+      color: #333;
+      margin: 8px 0 4px;
+      page-break-after: avoid;
+    }
+
+    p, ul {
+      margin: 4px 0;
+    }
+
+    li {
+      page-break-inside: avoid;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 10px 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    @media print {
+      body { margin: 0; }
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div>
+        <div>
+          <span>
+            <b>Stefan Živković</b>
+            <em style="color: grey"> Software Engineer | Novi Sad, Serbia</em>
+          </span>
+        </div>
+        <div>
+          <span>Visit my website at
+            <a href="https://stefanzivkovic.dev/" target="_blank">https://stefanzivkovic.dev/</a>
+            or scan the QR code</span>
+        </div>
+      </div>
+      <div>
+        <img src="qr.png" />
+      </div>
+    </div>
+    <hr />
+    <h2>Professional Summary</h2>
+    <p>
+      Software engineer with 6+ years of experience building web applications
+      across frontend and backend systems. Experienced in the TypeScript
+      ecosystem, CI/CD optimization, and automated testing. Skilled in applying
+      software design principles and DevOps practices to improve performance and
+      maintainability. Leverages AI assisted development tools like Claude Code
+      for coding, code review and test automation to accelerate feature delivery
+      and maintain high quality software.
+    </p>
+    <hr />
+    <h2>Technical Skills</h2>
+    <p>
+      <b>Programming languages:</b> TypeScript, C#, C++, Fortran<br />
+      <b>Frameworks and Libraries:</b> Node.js (NestJS, Express, Hapi, Feathers), React, Vue 2.7<br />
+      <b>Databases and caching:</b> PostgreSQL, Redis, node-cache<br />
+      <b>DevOps and cloud:</b> Docker, CI/CD pipelines, Elastic, Azure, AWS, Firebase, Git, Jenkins<br />
+      <b>Practices and design:</b> Domain Driven Design (DDD), data structures and algorithms (DSA), DevOps handbook approach, BDD, Agile, design patterns<br />
+      <b>Environments:</b> Ubuntu, WSL 2, Windows<br />
+    </p>
+    <hr />
+    <h2>Work Experience</h2>
+    <h3>Software Engineer - Sprinting Software | Mar 2020 - Present</h3>
+    <ul>
+      <li>Delivering and owning features across multiple frontend and backend services using Node.js and TypeScript for desktop, mobile web, mobile apps and kiosk applications.</li>
+      <li>Applied Domain Driven Design (DDD) principles to improve system maintainability and scalability.</li>
+      <li>Developed and maintained automated end-to-end tests, improving release confidence and reducing regressions.</li>
+      <li>Built CI/CD pipelines and implemented feature toggles, for increasing system stability and reliability.</li>
+      <li>Leverage AI assisted tools like Claude Code to accelerate development, perform code review and enhancing test automation.</li>
+    </ul>
+
+    <h3>Intermediate Power Engineer - Schneider Electric DMS NS | Dec 2016 - Mar 2020</h3>
+    <ul>
+      <li>Developed numerous software functions to monitor, optimize and manage electrical grid systems using Fortran, C# and C++ in an agile environment.</li>
+    </ul>
+
+    <h3>Early Career / Internship - Schneider Electric DMS NS | Oct 2013 - Dec 2016</h3>
+    <ul>
+      <li>Supported development and testing tasks in Scrum teams while gaining experience in professional engineering practices.</li>
+    </ul>
+
+    <hr />
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <b>Master of Electrical and Computer Engineering (Power Engineering)</b>
+        - Faculty of Technical Sciences, Novi Sad | 2014-2016
+      </li>
+      <li>
+        <b>Bachelor of Electrical and Computer Engineering (Power Engineering)</b>
+        - Faculty of Technical Sciences, Novi Sad | 2010-2014
+      </li>
+    </ul>
+
+    <hr />
+    <h2>Domain Experience</h2>
+    <ul>
+      <li>E-commerce platforms (food shop: desktop browser, mobile browser, mobile apps, kiosk)</li>
+      <li>ERP systems for waste management and food shop operations</li>
+    </ul>
+    <hr />
+    <h2>Languages</h2>
+    <ul>
+      <li>English - Full Professional Proficiency</li>
+      <li>Serbian - Native Proficiency</li>
+    </ul>
+  </body>
+</html>
